@@ -11,14 +11,234 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap"
       rel="stylesheet" />
+    <!--<link rel="stylesheet" href="./style.css" />-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Тинькофф Образование</title>
   </head>
   <body>
-    <div class="logo"></div>
-    <div class="login-icon"></div>
-    <img src="/assets/images/frontend.png" alt="Фронтенд технологии" />
-    <h1>Frontend-разработчик</h1>
+    <header class="header">
+      <div class="header__inside">
+        <div class="header__logo"></div>
+        <nav>
+          <ul class="header__navigation">
+            <li>
+              <a
+                class="header__link active"
+                href="https://fintech.tinkoff.ru/study/fintech/frontend/"
+                >Финтех курсы</a
+              >
+            </li>
+            <li>
+              <a class="header__link" href="https://fintech.tinkoff.ru/start/"
+                >Стажировки</a
+              >
+            </li>
+            <li>
+              <a
+                class="header__link"
+                href="https://fintech.tinkoff.ru/activities/"
+                >Мероприятия и партнерства</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="login_enter">
+          <button class="enter_button">
+            Войти <img src="./assets/icons/login.svg" alt="login" />
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="container hero">
+        <h1 class="hero__heading">Frontend-разработчик</h1>
+        <p class="hero__paragraph">
+          Трехмесячный бесплатный учебный курс от Финтеха, который можно
+          проходить из любой точки России
+        </p>
+        <button class="hero__button">Подробнее</button>
+        <img
+          class="hero__image"
+          src="/assets/images/frontend.png"
+          alt="Фронтенд технологии" />
+      </section>
+
+      <section class="frame">
+        <h2 class="frame__heading">Кому подойдет курс</h2>
+      </section>
+      <section class="section">
+        <img
+          class="section__image"
+          src="/assets/images/about-course-720.png"
+          alt="Фронтенд технологии_рисунок2" />
+        <ul class="section__list">
+          <li class="section__list-item">
+            Вы студент или выпускник технических вузов
+          </li>
+          <li class="section__list-item">
+            Хотите научиться создавать интерфейсы
+          </li>
+          <li class="section__list-item">
+            Хотите познакомиться с современным JavaScript и его фреймворками
+          </li>
+        </ul>
+      </section>
+
+      <section class="frame">
+        <h3 class="frame__heading">Что вас ждет на курсе</h3>
+      </section>
+
+      <section class="box grid grid-cols-3">
+        <div class="block">
+          <p class="block__heading">Основы разработки</p>
+
+          <p class="block__paragraph">
+            Делимся инструментами, которые позволяют нам создавать веб-продукты
+            для миллионов клиентов
+          </p>
+        </div>
+        <div class="block">
+          <p class="block__heading">Доступ к учебным материалам онлайн</p>
+
+          <p class="block__paragraph">
+            Онлайн-курс с лекциями и домашними заданиями. Вы можете его пройти
+            из любой точки России
+          </p>
+        </div>
+        <div class="block">
+          <p class="block__heading">Возможность попасть в команду</p>
+
+          <p class="block__paragraph">
+            Во время курса участники выполняют много практических заданий. Мы
+            замечаем лучших и приглашаем их на собеседование
+          </p>
+        </div>
+      </section>
+
+      <section class="frame">
+        <h4 class="frame__heading">Как строится обучение</h4>
+      </section>
+
+      <section class="box grid grid-cols-2">
+        <div class="block">
+          <p class="block_h2">Онлайн занятия один раз в неделю</p>
+          <ul class="block__list">
+            <li class="block__list-item">
+              Курс стартует в середине февраля и длится три месяца
+            </li>
+            <li class="block__list-item">
+              В неделю будете тратить около 2-3 часов на лекции и столько,
+              сколько сочтете нужным, на домашнюю работу
+            </li>
+          </ul>
+        </div>
+        <div class="block">
+          <p class="block_h2">Интерактив и нетворкинг</p>
+          <ul class="block__list">
+            <li class="block__list-item">
+              Вы сможете задавать вопросы преподавателям во время лекции в Зуме
+              или в общем чате
+            </li>
+            <li class="block__list-item">
+              Обсуждать материалы и домашки вместе с сокурсниками. Это поможет
+              найти новый профессиональный круг общения
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="frame">
+        <h5 class="frame__heading">Бесплатное обучение</h5>
+      </section>
+
+      <section class="box grid grid-cols-2">
+        <div class="block">
+          <img
+            class="block__icon"
+            src="/assets/icons/academic.svg"
+            alt="Шапка" />
+          <p class="block_h2">Каждый студент проходит тщательный отбор</p>
+          <ul class="block__list">
+            <li class="block__list-item">
+              Вы сможете задавать вопросы преподавателям во время лекции в Зуме
+              или в общем чате
+            </li>
+            <li class="block__list-item">
+              Обсуждать материалы и домашки вместе с сокурсниками. Это поможет
+              найти новый профессиональный круг общения
+            </li>
+          </ul>
+        </div>
+        <div class="block">
+          <img class="block__icon" src="/assets/icons/doc.svg" alt="Шапка" />
+          <p class="block_h2">Одинаковые условия для всех</p>
+          <ul class="block__list">
+            <li class="block__list-item">
+              Чтобы успешно закончить курс, нужно выполнить обязательные
+              домашние задания и защитить проект
+            </li>
+            <li class="block__list-item">
+              После обучения выдаем сертификат, подтверждающий,что вы освоили
+              теорию и навыки веб-разработки
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="frame">
+        <h6 class="frame__heading">Как попасть на курс</h6>
+      </section>
+
+      <section class="box grid grid-cols-4">
+        <div class="card">
+          <div class="card__number">
+            <p class="card__text">1</p>
+          </div>
+
+          <p class="card__paragraph">
+            Оставьте заявку онлайн и зарегистрируйтесь на сайте
+          </p>
+        </div>
+        <div class="card">
+          <div class="card__number">
+            <p class="card__text">2</p>
+          </div>
+
+          <p class="card__paragraph">
+            Расскажите в анкете, почему хотите изучить веб-разработку
+          </p>
+        </div>
+        <div class="card">
+          <div class="card__number">
+            <p class="card__text">3</p>
+          </div>
+
+          <p class="card__paragraph">
+            Пройдите экзамен: решите несколько задач по программированию
+          </p>
+        </div>
+        <div class="card">
+          <div class="card__number">
+            <p class="card__text">4</p>
+          </div>
+
+          <p class="card__paragraph">
+            Дождитесь письма об итогах отбора. Начните учиться
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__text">© 2022 «Тинькофф Образование»</p>
+      <p class="footer__text">
+        По вопросам пишите на
+        <a href="https://edu.tinkoff.ru" style="color: #336fee"
+          >edu@tinkoff.ru</a
+        >
+      </p>
+    </footer>
+
     <script type="module" src="./main.js"></script>
   </body>
 </html>
