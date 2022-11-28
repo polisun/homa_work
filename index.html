@@ -16,30 +16,32 @@
     <title>Тинькофф Образование</title>
   </head>
   <body>
-    <header class="shapka">
-      <div class="shapka__inside">
-        <div class="shapka__logo"></div>
-        <ul class="shapka__navigation">
-          <li>
-            <a
-              class="shapka__link active"
-              href="https://fintech.tinkoff.ru/study/fintech/frontend/"
-              >Финтех курсы</a
-            >
-          </li>
-          <li>
-            <a class="shapka__link" href="https://fintech.tinkoff.ru/start/"
-              >Стажировки</a
-            >
-          </li>
-          <li>
-            <a
-              class="shapka__link"
-              href="https://fintech.tinkoff.ru/activities/"
-              >Мероприятия и партнерства</a
-            >
-          </li>
-        </ul>
+    <header class="header">
+      <div class="header__inside">
+        <div class="header__logo"></div>
+        <nav>
+          <ul class="header__navigation">
+            <li>
+              <a
+                class="header__link active"
+                href="https://fintech.tinkoff.ru/study/fintech/frontend/"
+                >Финтех курсы</a
+              >
+            </li>
+            <li>
+              <a class="header__link" href="https://fintech.tinkoff.ru/start/"
+                >Стажировки</a
+              >
+            </li>
+            <li>
+              <a
+                class="header__link"
+                href="https://fintech.tinkoff.ru/activities/"
+                >Мероприятия и партнерства</a
+              >
+            </li>
+          </ul>
+        </nav>
         <div class="login_enter">
           <button class="enter_button">
             Войти <img src="./assets/icons/login.svg" alt="login" />
@@ -62,10 +64,10 @@
           alt="Фронтенд технологии" />
       </section>
 
-      <div class="frame">
-        <h1 class="frame__heading">Кому подойдет курс</h1>
-      </div>
-      <div class="section">
+      <section class="frame">
+        <h2 class="frame__heading">Кому подойдет курс</h2>
+      </section>
+      <section class="section">
         <img
           class="section__image"
           src="/assets/images/about-course-720.png"
@@ -81,15 +83,15 @@
             Хотите познакомиться с современным JavaScript и его фреймворками
           </li>
         </ul>
-      </div>
+      </section>
 
-      <div class="frame">
-        <h1 class="frame__heading">Что вас ждет на курсе</h1>
-      </div>
+      <section class="frame">
+        <h3 class="frame__heading">Что вас ждет на курсе</h3>
+      </section>
 
-      <div class="box grid grid-cols-3">
+      <section class="box grid grid-cols-3">
         <div class="block">
-          <h2 class="block__heading">Основы разработки</h2>
+          <p class="block__heading">Основы разработки</p>
 
           <p class="block__paragraph">
             Делимся инструментами, которые позволяют нам создавать веб-продукты
@@ -97,7 +99,7 @@
           </p>
         </div>
         <div class="block">
-          <h2 class="block__heading">Доступ к учебным материалам онлайн</h2>
+          <p class="block__heading">Доступ к учебным материалам онлайн</p>
 
           <p class="block__paragraph">
             Онлайн-курс с лекциями и домашними заданиями. Вы можете его пройти
@@ -105,22 +107,22 @@
           </p>
         </div>
         <div class="block">
-          <h2 class="block__heading">Возможность попасть в команду</h2>
+          <p class="block__heading">Возможность попасть в команду</p>
 
           <p class="block__paragraph">
             Во время курса участники выполняют много практических заданий. Мы
             замечаем лучших и приглашаем их на собеседование
           </p>
         </div>
-      </div>
+      </section>
 
-      <div class="frame">
-        <h1 class="frame__heading">Как строится обучение</h1>
-      </div>
+      <section class="frame">
+        <h4 class="frame__heading">Как строится обучение</h4>
+      </section>
 
-      <div class="box grid grid-cols-2">
+      <section class="box grid grid-cols-2">
         <div class="block">
-          <h2 class="block_h2">Онлайн занятия один раз в неделю</h2>
+          <p class="block_h2">Онлайн занятия один раз в неделю</p>
           <ul class="block__list">
             <li class="block__list-item">
               Курс стартует в середине февраля и длится три месяца
@@ -132,7 +134,7 @@
           </ul>
         </div>
         <div class="block">
-          <h2 class="block_h2">Интерактив и нетворкинг</h2>
+          <p class="block_h2">Интерактив и нетворкинг</p>
           <ul class="block__list">
             <li class="block__list-item">
               Вы сможете задавать вопросы преподавателям во время лекции в Зуме
@@ -144,19 +146,19 @@
             </li>
           </ul>
         </div>
-      </div>
+      </section>
 
-      <div class="frame">
-        <h1 class="frame__heading">Бесплатное обучение</h1>
-      </div>
+      <section class="frame">
+        <h5 class="frame__heading">Бесплатное обучение</h5>
+      </section>
 
-      <div class="box grid grid-cols-2">
+      <section class="box grid grid-cols-2">
         <div class="block">
           <img
             class="block__icon"
             src="/assets/icons/academic.svg"
             alt="Шапка" />
-          <h2 class="block_h2">Каждый студент проходит тщательный отбор</h2>
+          <p class="block_h2">Каждый студент проходит тщательный отбор</p>
           <ul class="block__list">
             <li class="block__list-item">
               Вы сможете задавать вопросы преподавателям во время лекции в Зуме
@@ -170,7 +172,7 @@
         </div>
         <div class="block">
           <img class="block__icon" src="/assets/icons/doc.svg" alt="Шапка" />
-          <h2 class="block_h2">Одинаковые условия для всех</h2>
+          <p class="block_h2">Одинаковые условия для всех</p>
           <ul class="block__list">
             <li class="block__list-item">
               Чтобы успешно закончить курс, нужно выполнить обязательные
@@ -182,13 +184,13 @@
             </li>
           </ul>
         </div>
-      </div>
+      </section>
 
-      <div class="frame">
-        <h1 class="frame__heading">Как попасть на курс</h1>
-      </div>
+      <section class="frame">
+        <h6 class="frame__heading">Как попасть на курс</h6>
+      </section>
 
-      <div class="box grid grid-cols-4">
+      <section class="box grid grid-cols-4">
         <div class="card">
           <div class="card__number">
             <p class="card__text">1</p>
@@ -225,19 +227,18 @@
             Дождитесь письма об итогах отбора. Начните учиться
           </p>
         </div>
-      </div>
-      <div class="conteiner__footer">
-        <footer class="footer">
-          <p class="footer__text">© 2022 «Тинькофф Образование»</p>
-          <p class="footer__text">
-            По вопросам пишите на
-            <a href="https://edu.tinkoff.ru" style="color: #336fee"
-              >edu@tinkoff.ru</a
-            >
-          </p>
-        </footer>
-      </div>
+      </section>
     </main>
+    <footer class="footer">
+      <p class="footer__text">© 2022 «Тинькофф Образование»</p>
+      <p class="footer__text">
+        По вопросам пишите на
+        <a href="https://edu.tinkoff.ru" style="color: #336fee"
+          >edu@tinkoff.ru</a
+        >
+      </p>
+    </footer>
+
     <script type="module" src="./main.js"></script>
   </body>
 </html>
